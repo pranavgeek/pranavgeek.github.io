@@ -1,38 +1,454 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Megrim&family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  margin: 1rem;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title .name {
+  font-family: "Megrim", cursive;
+  color: white;
+  font-size: 2rem;
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+
+.dot {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 7px;
+  margin-top: 1.8rem;
+  background-color: rgb(255, 88, 28);
+  border-radius: 50%;
+  position: absolute;
+  animation: 1s 1s jump infinite ease-in-out;
+}
+
+nav {
   text-align: center;
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 117, 190),
+    greenyellow,
+    rgb(255, 88, 28)
+  );
+  /* background-color: rgb(255, 255, 255, 0.9); */
+  padding: 0.1rem;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  -webkit-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  padding-inline-start: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:hover {
+  color: rgb(255, 88, 28);
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Diamond Animation */
+svg {
+  width: 375px;
+  display: block;
+  height: 200px;
+  animation: float 3s 1s ease-out infinite;
+}
+
+#main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 80vh;
+}
+
+.content-text {
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 3rem;
+  color: rgb(255, 86, 24);
+  line-height: 2px;
+}
+
+.content-child {
+  font-size: 1.6rem;
+  line-height: 40px;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-child {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.info-child:nth-child(3) {
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.apple {
+  height: 20px;
+}
+
+.sqr {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1.8rem;
+  position: absolute;
+  background-color: rgb(0, 117, 190);
+}
+
+.listOfHobbies li {
+  display: block;
+  line-height: 30px;
+}
+
+.listOfLearning li {
+  display: block;
+  line-height: 30px;
+}
+
+.like:nth-child(1) {
+  margin-top: 2rem;
+  font-weight: 100;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  font-size: larger;
+  height: 70vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#contact-info p {
+  text-decoration: none;
   color: white;
+  font-size: 1.3rem;
 }
 
-.App-link {
-  color: #61dafb;
+#contact-info a {
+  text-decoration: none;
+  color: rgb(25, 133, 221);
+  font-size: 1.3rem;
 }
 
-@keyframes App-logo-spin {
+#contact-info a:hover {
+  background-color: rgb(255, 86, 24);
+}
+
+.me {
+  height: 200px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contact {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 3rem;
+}
+
+.traingle {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid green;
+  margin-top: 0.4rem;
+  position: absolute;
+}
+
+.contact-list a {
+  color: white;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.contact-list a:hover {
+  color: greenyellow;
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+    background-color: transparent;
+    background-image: none;
+  }
+
+  .dot {
+    margin-bottom: 1.8rem;
+    animation-name: jump 1.5s ease-in-out;
+  }
+
+  a {
+    color: greenyellow;
+    font-size: 1.5rem;
+  }
+
+  #main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18rem;
+    position: relative;
+    height: 90vh;
+    margin-right: 14rem;
+    margin-top: -1rem;
+  }
+
+  /* #img {
+    height: 375px;
+    margin-top: -9rem;
+  } */
+
+  /* Diamond Animation */
+  svg {
+    /* background-color: aqua; */
+    width: 700px;
+    height: 50%;
+    margin-left: -264px;
+    flex-shrink: 0;
+    animation: float 3s 1s ease-out infinite;
+  }
+
+  .content-text {
+    margin-left: 4.5rem;
+  }
+
+  .hello {
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+
+  .content-child {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+
+  .traingle {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid green;
+    margin-top: 0.1rem;
+  }
+  .contact {
+    margin-left: 4rem;
+  }
+
+  .contact-list a {
+    font-size: 1.5rem;
+  }
+
+  #information {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: space-around;
+  }
+
+  .about-info {
+    width: 75%;
+  }
+  .info-child {
+    font-size: 3rem;
+  }
+
+  .info-child:nth-child(3) {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+
+  .sqr {
+    margin-top: 3.5rem;
+  }
+
+  .apple {
+    height: 40px;
+  }
+
+  #contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80vh;
+  }
+
+  #contact-info h1 {
+    font-size: 4rem;
+  }
+
+  #contact-info p {
+    font-size: 2rem;
+  }
+
+  #contact-info a {
+    font-size: 2rem;
+  }
+
+  #contact-info a:hover {
+    background-color: rgb(255, 86, 24);
+  }
+  .me {
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    height: 1rem;
+  }
+  20% {
+    height: 1.5rem;
+  }
+  50% {
+    transform: translateY(-2.5rem);
+    border-radius: 50%;
+  }
+  95% {
+    height: 1.5rem;
+  }
+  100% {
+    height: 1rem;
+  }
+}
+
+marquee {
+  background-color: rgb(0, 117, 190);
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  height: 1.5rem;
+  font-weight: bolder;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Diamond Animation
+
+/* Replace these animations with your desired entrance animations */
+.animate-head {
+  animation: animateEntrance 0.2s ease;
+}
+
+.animate-left-hand {
+  animation: animateEntrance 0.5s ease 0.2s;
+}
+
+.animate-center {
+  animation: animateEntrance 0.5s ease 0.4s;
+}
+
+/* Add more animations for the other elements */
+
+/* Color change animations */
+.animate-head {
+  animation: colorChange 0.5s infinite alternate 2s;
+}
+
+.animate-left-hand {
+  animation: colorChange 0.5s infinite alternate 2.2s;
+}
+
+.animate-center {
+  animation: colorChange 0.5s infinite alternate 1.7s;
+}
+
+.animate-right-hand {
+  animation: colorChange 0.5s infinite alternate 1.9s;
+}
+
+.animate-middle-foot {
+  animation: colorChange 0.5s infinite alternate 1.9s;
+}
+
+.animate-right-foot {
+  animation: colorChange 0.5s infinite alternate 2s;
+}
+
+.animate-left-foot {
+  animation: colorChange 0.5s infinite alternate 2.2s;
+}
+
+/* Define your entrance animation keyframes */
+@keyframes animateEntrance {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(-100px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Define your color change animation keyframes */
+@keyframes colorChange {
+  0% {
+    fill: rgb(255, 86, 24);
+  }
+  50% {
+    fill: greenyellow;
+  }
+  100% {
+    fill: rgb(0, 117, 190);
+  }
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
   }
 }
