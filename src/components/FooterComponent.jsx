@@ -23,7 +23,7 @@ class FooterContainer extends Component {
               <a href={myResume}>Resume</a>
             </li>
             <li>
-              <a href="https://github.com/pranavgeek/">Git</a>
+              <a href="https://github.com/pranavgeek/">Github</a>
             </li>
             <li>
               <a href="https://codepen.io/praanaav__">CodePen</a>
