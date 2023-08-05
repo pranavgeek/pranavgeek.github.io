@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import myResume from '../Pranav.pdf'
+import myResume from '../Tech Resume By Pranav Gotawala.pdf'
 import "../App"
 
 class FooterContainer extends Component {
