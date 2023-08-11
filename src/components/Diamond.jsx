@@ -38,8 +38,8 @@ const Diamond = () => {
       >
         <style type="text/css">
           {`
-            .st0 { fill: #969595; }
-            .st1 { fill: #D5CCE2; }
+            .st0 { fill: black; }
+            .st1 { fill: black; }
           `}
         </style>
         <g>
