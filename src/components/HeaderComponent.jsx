@@ -19,6 +19,9 @@ class Header extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
+              <Link to="/workSection">Work</Link>
+            </li>
+            <li>
               <Link to="/about">About</Link>
             </li>
             <li>
