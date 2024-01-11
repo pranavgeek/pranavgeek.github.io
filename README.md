@@ -1,1 +1,1 @@
-Pranav's Portfolio
+Pranav's Portfolio a static site.
