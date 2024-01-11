@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import myImages from "../Images/Snapchat-1127437690.jpg";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 
 class ContactMainContainer extends Component {
   state = {};
@@ -16,7 +16,7 @@ class ContactMainContainer extends Component {
             <a href="mailto: pranavgotawala@gmail.com">pranavgeek@gmail.com</a>
           </div>
         </div>
-        <hr
+        {/* <hr
           style={{
             background: "#47B5FF",
             height: "2px",
@@ -24,8 +24,8 @@ class ContactMainContainer extends Component {
             opacity: 0.6,
             border: "none",
           }}
-        />
-        <ContactForm />
+        /> */}
+        {/* <ContactForm /> */}
       </>
     );
   }

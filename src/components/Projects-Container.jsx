@@ -12,32 +12,12 @@ class ProjectsContainer extends Component {
               <div className="blue-column">
                 <div className="inline-content">
                   <span
-                    style={{
-                      backgroundColor: "rgb(0, 117, 190)",
-                      display: "inline-block",
-                      width: "2.0rem",
-                      height: "2.0rem",
-                      marginTop: "-2.5rem",
-                    }}
+                  className="box"
                   ></span>
-                  <h1
-                    style={{
-                      display: "inline",
-                      fontSize: "3rem",
-                      marginLeft: "1.8rem",
-                      marginTop: "0rem",
-                    }}
-                  >
-                    Ridbuter
-                  </h1>
+                  <h1 className="projectTitle">Ridbuter</h1>
                 </div>
                 <p
-                  style={{
-                    fontSize: "1.2rem",
-                    marginLeft: "4rem",
-                    marginTop: "-1rem",
-                    lineHeight: "2rem",
-                  }}
+                  className="project-p"
                 >
                   React Native <br></br>WebApp using ReactJS, TypeScript, VueJS
                 </p>
@@ -46,11 +26,7 @@ class ProjectsContainer extends Component {
             <div className="column">
               <div className="green-column">
                 <p
-                  style={{
-                    fontSize: "1.5rem",
-                    marginTop: "1rem",
-                    lineHeight: "2rem",
-                  }}
+                 className="project-desc"
                 >
                   The Ridbuter application provides users with a seamless
                   experience to manage their ride-related activities. Users can
@@ -77,36 +53,15 @@ class ProjectsContainer extends Component {
               <div className="blue-column">
                 <div className="inline-content">
                   <span className="static-dot"></span>
-                  <h1
-                    style={{
-                      display: "inline",
-                      fontSize: "3rem",
-                      marginLeft: "1.8rem",
-                      marginTop: "0rem",
-                    }}
-                  >
-                    Weather App
-                  </h1>
+                  <h1 className="projectTitle">Weather App</h1>
                 </div>
-                <p
-                  style={{
-                    fontSize: "1.2rem",
-                    marginLeft: "4rem",
-                    marginTop: "-1rem",
-                  }}
-                >
-                  SwiftUI
-                </p>
+                <p className="project-p">SwiftUI</p>
               </div>
             </div>
             <div className="column">
               <div className="green-column">
                 <p
-                  style={{
-                    fontSize: "1.5rem",
-                    marginTop: "1rem",
-                    lineHeight: "2rem",
-                  }}
+                 className="project-desc"
                 >
                   WeatherApp is a meticulously crafted iOS application designed
                   to provide users with accurate and up-to-date weather
@@ -134,44 +89,17 @@ class ProjectsContainer extends Component {
               <div className="blue-column">
                 <div className="inline-content">
                   <span
-                    style={{
-                      backgroundColor: "rgb(0, 117, 190)",
-                      display: "inline-block",
-                      width: "2.0rem",
-                      height: "2.0rem",
-                      marginTop: "-2.5rem",
-                    }}
+                  className="box"
                   ></span>
-                  <h1
-                    style={{
-                      display: "inline",
-                      fontSize: "3rem",
-                      marginLeft: "1.8rem",
-                      marginTop: "0rem",
-                    }}
-                  >
-                    Shopping list App
-                  </h1>
+                  <h1 className="projectTitle">Shopping list App</h1>
                 </div>
-                <p
-                  style={{
-                    fontSize: "1.2rem",
-                    marginLeft: "4rem",
-                    marginTop: "-1rem",
-                  }}
-                >
-                  SwiftUI
-                </p>
+                <p className="project-p">SwiftUI</p>
               </div>
             </div>
             <div className="column">
               <div className="green-column">
                 <p
-                  style={{
-                    fontSize: "1.5rem",
-                    marginTop: "1rem",
-                    lineHeight: "2rem",
-                  }}
+                className="project-desc"
                 >
                   The Shopping List Application is a sophisticated mobile app
                   developed using Swift, tailored to cater to users who desire a
