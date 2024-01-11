@@ -640,30 +640,31 @@ marquee {
   }
 
   .static-dot {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-top: -1rem;
   }
 
   .projectTitle {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .project-p {
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 1.3rem;
+    margin-left: 3.4rem;
   }
 
   .box {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-top: -1.5rem;
   }
 
   .project-desc {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
 
 }
