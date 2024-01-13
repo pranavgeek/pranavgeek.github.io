@@ -35,7 +35,7 @@ class ProjectsContainer extends Component {
                   specific rides.
                 </p>
                 <a
-                  href="https://github.com/yourusername/ridbuter"
+                  href="https://github.com/pranavgeek/RidbuterApp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="viewBtn"
