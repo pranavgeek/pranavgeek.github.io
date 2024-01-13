@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.8b53a692.css",
-    "main.js": "/static/js/main.6489aec1.js",
+    "main.js": "/static/js/main.6c112788.js",
     "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
+    "static/media/TechPGR.pdf": "/static/media/TechPGR.56233d101ae2a7585ddc.pdf",
     "static/media/Snapchat-1127437690.jpg": "/static/media/Snapchat-1127437690.c4f7dbe0cdcf80463476.jpg",
-    "static/media/Techpranav.pdf": "/static/media/Techpranav.7574302d0477acfb7d03.pdf",
     "static/media/icons8-apple-50.png.webp": "/static/media/icons8-apple-50.png.5b9d15f8abe75d554cc7.webp",
     "index.html": "/index.html",
     "main.8b53a692.css.map": "/static/css/main.8b53a692.css.map",
-    "main.6489aec1.js.map": "/static/js/main.6489aec1.js.map",
+    "main.6c112788.js.map": "/static/js/main.6c112788.js.map",
     "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b53a692.css",
-    "static/js/main.6489aec1.js"
+    "static/js/main.6c112788.js"
   ]
 }
