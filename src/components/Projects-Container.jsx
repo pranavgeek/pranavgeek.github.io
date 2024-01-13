@@ -115,7 +115,7 @@ class ProjectsContainer extends Component {
             <div className="column">
               <div className="blue-column">
                 <div className="inline-content">
-                <span className="static-dot"></span>
+                  <span className="static-dot"></span>
                   <h1 className="projectTitle">Hangman App</h1>
                 </div>
                 <p className="project-p">SwiftUI</p>
@@ -130,6 +130,41 @@ class ProjectsContainer extends Component {
                   sleek design, engaging gameplay, and varying difficulty
                   levels, it's the perfect blend of fun and mental agility.
                   Elevate your wordplay experience today!
+                </p>
+                <a
+                  href="https://github.com/pranavgeek/HangMan-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="viewBtn"
+                >
+                  View Code ⇒
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ------------- */}
+        <div className="some-page-wrapper">
+          <div className="row">
+            <div className="column">
+              <div className="blue-column">
+                <div className="inline-content">
+                  <span className="static-dot"></span>
+                  <h1 className="projectTitle">Birthday Reminder App</h1>
+                </div>
+                <p className="project-p">Kotlin</p>
+              </div>
+            </div>
+            <div className="column">
+              <div className="green-column">
+                <p className="project-desc">
+                  Never miss a birthday again with our intuitive Birthday
+                  Reminder app! Stay organized effortlessly as it sends timely
+                  notifications for upcoming birthdays, ensuring you celebrate
+                  every special moment. Easily import contacts, set customizable
+                  reminders, and add personalized messages. Make every birthday
+                  memorable with this user-friendly app designed to keep your
+                  social calendar in check.
                 </p>
                 <a
                   href="https://github.com/pranavgeek/HangMan-App"
