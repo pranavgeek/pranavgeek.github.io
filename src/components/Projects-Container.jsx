@@ -150,7 +150,7 @@ class ProjectsContainer extends Component {
               <div className="blue-column">
                 <div className="inline-content">
                   <span className="box"></span>
-                  <h1 className="projectTitle">Birthday Reminder App</h1>
+                  <h1 className="projectTitle">Birthday reminder App</h1>
                 </div>
                 <p className="project-p">Kotlin</p>
               </div>
