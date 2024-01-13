@@ -71,7 +71,7 @@ class ProjectsContainer extends Component {
                   range of features to enhance the user experience.
                 </p>
                 <a
-                  href="https://github.com/yourusername/ridbuter"
+                  href="https://github.com/pranavgeek/WeatherApp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="viewBtn"
