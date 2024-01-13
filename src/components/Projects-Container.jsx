@@ -167,7 +167,7 @@ class ProjectsContainer extends Component {
                   social calendar in check.
                 </p>
                 <a
-                  href="https://github.com/pranavgeek/HangMan-App"
+                  href="https://github.com/pranavgeek/BirthdayReminderApp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="viewBtn"
