@@ -110,7 +110,7 @@ class ProjectsContainer extends Component {
                   and their user names for enhanced tracking and management.
                 </p>
                 <a
-                  href="https://github.com/yourusername/ridbuter"
+                  href="https://github.com/pranavgeek/ShoppingListApp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="viewBtn"
