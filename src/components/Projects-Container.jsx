@@ -11,23 +11,17 @@ class ProjectsContainer extends Component {
             <div className="column">
               <div className="blue-column">
                 <div className="inline-content">
-                  <span
-                  className="box"
-                  ></span>
+                  <span className="box"></span>
                   <h1 className="projectTitle">Ridbuter</h1>
                 </div>
-                <p
-                  className="project-p"
-                >
+                <p className="project-p">
                   React Native <br></br>WebApp using ReactJS, TypeScript, VueJS
                 </p>
               </div>
             </div>
             <div className="column">
               <div className="green-column">
-                <p
-                 className="project-desc"
-                >
+                <p className="project-desc">
                   The Ridbuter application provides users with a seamless
                   experience to manage their ride-related activities. Users can
                   effortlessly signIn, signOut, submit ride requests, and book
@@ -60,9 +54,7 @@ class ProjectsContainer extends Component {
             </div>
             <div className="column">
               <div className="green-column">
-                <p
-                 className="project-desc"
-                >
+                <p className="project-desc">
                   WeatherApp is a meticulously crafted iOS application designed
                   to provide users with accurate and up-to-date weather
                   information at their fingertips. Developed using Swift and
@@ -88,9 +80,7 @@ class ProjectsContainer extends Component {
             <div className="column">
               <div className="blue-column">
                 <div className="inline-content">
-                  <span
-                  className="box"
-                  ></span>
+                  <span className="box"></span>
                   <h1 className="projectTitle">Shopping list App</h1>
                 </div>
                 <p className="project-p">SwiftUI</p>
@@ -98,9 +88,7 @@ class ProjectsContainer extends Component {
             </div>
             <div className="column">
               <div className="green-column">
-                <p
-                className="project-desc"
-                >
+                <p className="project-desc">
                   The Shopping List Application is a sophisticated mobile app
                   developed using Swift, tailored to cater to users who desire a
                   comprehensive platform to manage their shopping lists with
@@ -111,6 +99,40 @@ class ProjectsContainer extends Component {
                 </p>
                 <a
                   href="https://github.com/pranavgeek/ShoppingListApp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="viewBtn"
+                >
+                  View Code ⇒
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ------------- */}
+        <div className="some-page-wrapper">
+          <div className="row">
+            <div className="column">
+              <div className="blue-column">
+                <div className="inline-content">
+                <span className="static-dot"></span>
+                  <h1 className="projectTitle">Hangman App</h1>
+                </div>
+                <p className="project-p">SwiftUI</p>
+              </div>
+            </div>
+            <div className="column">
+              <div className="green-column">
+                <p className="project-desc">
+                  A captivating word-guessing game that challenges your
+                  vocabulary and strategic thinking. Guess letters to unravel
+                  the mystery word before the stick figure completes. With a
+                  sleek design, engaging gameplay, and varying difficulty
+                  levels, it's the perfect blend of fun and mental agility.
+                  Elevate your wordplay experience today!
+                </p>
+                <a
+                  href="https://github.com/pranavgeek/HangMan-App"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="viewBtn"
