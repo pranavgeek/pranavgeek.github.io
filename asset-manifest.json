@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b53a692.css",
-    "main.js": "/static/js/main.ebbbf448.js",
-    "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
-    "static/media/TechPGR.pdf": "/static/media/TechPGR.0f89192ac2ee1852f08c.pdf",
+    "main.css": "/static/css/main.ed0d697b.css",
+    "main.js": "/static/js/main.b14bd233.js",
+    "static/js/453.e1a4b6e9.chunk.js": "/static/js/453.e1a4b6e9.chunk.js",
+    "static/media/PranavG_CV_MainOne.pdf": "/static/media/PranavG_CV_MainOne.2e652590eec10d3541ce.pdf",
     "static/media/Snapchat-1127437690.jpg": "/static/media/Snapchat-1127437690.c4f7dbe0cdcf80463476.jpg",
     "static/media/icons8-apple-50.png.webp": "/static/media/icons8-apple-50.png.5b9d15f8abe75d554cc7.webp",
     "index.html": "/index.html",
-    "main.8b53a692.css.map": "/static/css/main.8b53a692.css.map",
-    "main.ebbbf448.js.map": "/static/js/main.ebbbf448.js.map",
-    "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
+    "main.ed0d697b.css.map": "/static/css/main.ed0d697b.css.map",
+    "main.b14bd233.js.map": "/static/js/main.b14bd233.js.map",
+    "453.e1a4b6e9.chunk.js.map": "/static/js/453.e1a4b6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b53a692.css",
-    "static/js/main.ebbbf448.js"
+    "static/css/main.ed0d697b.css",
+    "static/js/main.b14bd233.js"
   ]
 }
