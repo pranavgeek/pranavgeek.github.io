@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.869cfd46.css",
-    "main.js": "/static/js/main.7cd7e1b4.js",
+    "main.js": "/static/js/main.9735e787.js",
     "static/js/453.e1a4b6e9.chunk.js": "/static/js/453.e1a4b6e9.chunk.js",
     "static/media/profile.jpeg": "/static/media/profile.c84cebdff4424870be57.jpeg",
     "static/media/Pranav_MD_CV.pdf": "/static/media/Pranav_MD_CV.5dcc4bc637dc595d943c.pdf",
     "static/media/icons8-apple-50.png.webp": "/static/media/icons8-apple-50.png.5b9d15f8abe75d554cc7.webp",
     "index.html": "/index.html",
     "main.869cfd46.css.map": "/static/css/main.869cfd46.css.map",
-    "main.7cd7e1b4.js.map": "/static/js/main.7cd7e1b4.js.map",
+    "main.9735e787.js.map": "/static/js/main.9735e787.js.map",
     "453.e1a4b6e9.chunk.js.map": "/static/js/453.e1a4b6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.869cfd46.css",
-    "static/js/main.7cd7e1b4.js"
+    "static/js/main.9735e787.js"
   ]
 }
